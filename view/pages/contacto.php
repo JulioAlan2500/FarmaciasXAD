@@ -49,43 +49,6 @@
                 </div>
             </section>
 
-            <main class="contact-section">
-                <div class="container">
-                    <h2 class="section-title">Envíanos un mensaje</h2>
-                    <div class="contact-form">
-                        <form>
-                            <div class="row mb-3">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="nombre" class="form-label">Tu nombre</label>
-                                        <input type="text" class="form-control" id="nombre" placeholder="Nombre completo" required>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="email" class="form-label">Tu correo</label>
-                                        <input type="email" class="form-control" id="email" placeholder="correo@ejemplo.com" required>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-group mb-3">
-                                <label for="asunto" class="form-label">Asunto</label>
-                                <input type="text" class="form-control" id="asunto" placeholder="Asunto del mensaje">
-                            </div>
-                            <div class="form-group mb-4">
-                                <label for="mensaje" class="form-label">Mensaje</label>
-                                <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." style="resize: none;"></textarea>
-                            </div>
-                            <div class="text-center">
-                                <button type="submit" class="btn btn-primary btn-lg">
-                                    <i class="fas fa-paper-plane me-2"></i>Enviar mensaje
-                                </button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </main>
-
             <section class="contact-section">
                 <div class="container">
                     <h2 class="section-title">Información de contacto</h2>
