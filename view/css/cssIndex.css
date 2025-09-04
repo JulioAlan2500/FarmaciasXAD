@@ -5,6 +5,10 @@
     font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
 }
 
+body {
+    background-color: #f8f9fa;
+}
+
 .header {
     background-color: #ffffff;
     padding: 0;
@@ -42,7 +46,7 @@
 }
 
 .custom-navbar .navbar-nav .nav-link:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 123, 255, 0.1);
     transform: translateY(-2px);
 }
 
@@ -55,81 +59,104 @@ main {
     display: flex;
     justify-content: center;
     align-items: stretch;
-    background-color: rgb(135, 161, 255);
     min-height: calc(100vh - 200px);
+    padding: 20px 0;
 }
 
 .main-container {
     display: flex;
     width: 100%;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0 20px;
 }
 
 .section {
-    flex: 3;
-    padding: 30px;
+    width: 100%;
+    padding: 40px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    margin-right: 20px;
-}
-
-.farmacia-img {
-    flex: 2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.farmacia-img img {
-    width: 105%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
-.farmacia-img img:hover {
-    transform: scale(1.02);
 }
 
 .welcome-content {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.welcome-content h1 {
+    color: #2c3e50;
+    font-weight: 700;
+}
+
+.welcome-content p {
+    color: #7f8c8d;
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    border-color: #3498db;
+    padding: 12px 30px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .services-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 25px;
     margin-top: 30px;
 }
 
 .service-card {
     background: #f8f9fa;
-    padding: 20px;
-    border-radius: 8px;
+    padding: 25px;
+    border-radius: 10px;
     text-align: center;
-    transition: transform 0.3s;
+    transition: all 0.3s;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .service-card:hover {
     transform: translateY(-5px);
     background: #e9ecef;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .service-icon {
     font-size: 2.5rem;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     display: inline-block;
-    width: 70px;
-    height: 70px;
-    line-height: 70px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
     border-radius: 50%;
     background: #f8f9fa;
+}
+
+.service-card h3 {
+    margin-bottom: 15px;
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.service-card p {
+    color: #7f8c8d;
+    line-height: 1.6;
 }
 
 .service-card:nth-child(1) .service-icon {
@@ -148,48 +175,39 @@ main {
     color: #2ecc71;
     background: #eafaf1;
 }
-.service-card:nth-child(5) .service-icon {
-    color: #f39c12;
-    background: #fef5e7;
-}
-.service-card:nth-child(6) .service-icon {
-    color: #1abc9c;
-    background: #e8f8f5;
-}
-
 
 footer {
     padding: 2rem 0;
     border-top: 1px solid #e5e7eb;
     color: #475569;
     background-color: #f8f9fa;
+    margin-top: 40px;
 }
 
 footer .cols {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
-    gap: 1rem;
+    gap: 1.5rem;
     padding: 0 20px;
     max-width: 1200px;
     margin: 0 auto;
 }
 
+footer strong {
+    color: #2c3e50;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
 @media (max-width: 992px) {
-    .main-container {
-        flex-direction: column;
-    }
-
-    .section {
-        margin-right: 0;
-        margin-bottom: 20px;
-    }
-
-    .farmacia-img {
-        height: 400px;
-    }
-
     .services-grid {
         grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .section {
+        padding: 30px;
     }
 }
 
@@ -197,6 +215,7 @@ footer .cols {
     footer .cols {
         grid-template-columns: 1fr;
         text-align: center;
+        gap: 1rem;
     }
 
     .header {
@@ -215,30 +234,20 @@ footer .cols {
     .navbar-brand img {
         width: 180px;
     }
-}
-
-.main-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.farmacia-img {
-    width: 100%;
-    margin-bottom: 2rem;
-    order: -1; /* Coloca este elemento primero */
-}
-
-.farmacia-img img {
-    width: 100%;
-    height: auto;
-    max-height: 400px;
-    object-fit: cover;
-    border-radius: 8px;
-}
-
-@media (max-width: 768px) {
-    .farmacia-img img {
-        max-height: 300px;
+    
+    .section {
+        padding: 20px;
+    }
+    
+    .welcome-content {
+        padding: 10px;
+    }
+    
+    .welcome-content h1 {
+        font-size: 2rem;
+    }
+    
+    .welcome-content p {
+        font-size: 1rem;
     }
 }

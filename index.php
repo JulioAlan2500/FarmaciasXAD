@@ -46,6 +46,7 @@
         </header>
 
         <main class="main">
+            <div class="main-container">
                 <section class="section">
                     <div class="welcome-content">
                         <h1 class="display-4 mb-4">Bienvenido a Farmacias XAD</h1>
