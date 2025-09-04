@@ -94,24 +94,6 @@
                             <p>Medicamentos originales de laboratorios reconocidos con garantía de calidad y
                                 efectividad.</p>
                         </div>
-
-                        <div class="service-card">
-                            <div class="service-icon">
-                                <i class="fas fa-leaf"></i>
-                            </div>
-                            <h3>Naturista</h3>
-                            <p>Productos naturales, suplementos herbales y alternativas terapéuticas para un bienestar
-                                integral.</p>
-                        </div>
-
-                        <div class="service-card">
-                            <div class="service-icon">
-                                <i class="fas fa-seedling"></i>
-                            </div>
-                            <h3>Homeopatía</h3>
-                            <p>Tratamientos homeopáticos personalizados que estimulan la capacidad curativa natural del
-                                organismo.</p>
-                        </div>
                     </div>
                 </section>
             </div>
