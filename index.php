@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Farmacias HECHO POR SAMITA </title>
+    <title>Farmacias CESAR SILVA </title>
     <link rel="shortcut icon" href="view/img/logos/FarmaciasXAD - FavIcon.jpg" type="image/x-icon" />
     <link rel="stylesheet" href="view/vendor/bootstrap-5.2.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="view/css/cssIndex.css">
