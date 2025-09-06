@@ -60,8 +60,8 @@
                                 </div>
                                 <div class="contact-info">
                                     <h3>📍 Dirección</h3>
-                                    <p>Av. Principal #123, Colonia Centro</p>
-                                    <p>Ciudad, Estado, C.P. 12345</p>
+                                    <p>Santa Cristina 226 #123, La Providencia Siglo XXI</p>
+                                    <p>Mineral de la Reforma, Hidalgo, C.P. 42186</p>
                                 </div>
                             </div>
                         </div>
