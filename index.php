@@ -10,6 +10,84 @@
     <link rel="stylesheet" href="view/css/cssIndex.css">
     <script src="view/vendor/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Estilos para el carrusel */
+        .carousel-container {
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+        
+        .carousel-item {
+            height: 70vh;
+            min-height: 400px;
+            background: no-repeat center center;
+            background-size: cover;
+            position: relative;
+        }
+        
+        .carousel-caption {
+            bottom: initial;
+            top: 50%;
+            transform: translateY(-50%);
+            text-align: center;
+        }
+        
+        .carousel-content {
+            background-color: rgba(25, 65, 115, 0.85);
+            padding: 2.5rem;
+            border-radius: 15px;
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .carousel-content h1 {
+            font-weight: 700;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            margin-bottom: 1.5rem !important;
+        }
+        
+        .carousel-content p {
+            font-size: 1.5rem;
+            color: #fff;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+            margin-bottom: 0;
+        }
+        
+        .carousel-indicators button {
+            width: 12px !important;
+            height: 12px !important;
+            border-radius: 50%;
+            margin: 0 8px !important;
+        }
+        
+        .carousel-control-prev, .carousel-control-next {
+            width: 5% !important;
+        }
+        
+        @media (max-width: 768px) {
+            .carousel-item {
+                height: 50vh;
+            }
+            
+            .carousel-caption {
+                padding-top: 30px;
+            }
+            
+            .carousel-content {
+                padding: 1.5rem;
+            }
+            
+            .carousel-content h1 {
+                font-size: 2.2rem;
+            }
+            
+            .carousel-content p {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -45,14 +123,58 @@
             </nav>
         </header>
 
+        <!-- Carrusel de imágenes (nuevo) -->
+        <div class="carousel-container">
+            <div id="mainCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <!-- Indicadores -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2"></button>
+                </div>
+                
+                <!-- Imágenes del carrusel desde archivos locales -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active" style="background-image: url('view/img/Farmacias_XAD_Carrusel_1.jpg')">
+                        <div class="carousel-caption">
+                            <div class="carousel-content">
+                                <h1 class="display-4 mb-4">Bienvenido a Farmacias XAD</h1>
+                                <p class="lead">Tu salud es nuestra prioridad. Encuentra los mejores productos farmacéuticos y servicios de calidad.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="background-image: url('view/img/Farmacias_XAD_Carrusel_2.jpg')">
+                        <div class="carousel-caption">
+                            <div class="carousel-content">
+                                <h1 class="display-4 mb-4">Cuidamos de ti y tu familia</h1>
+                                <p class="lead">Profesionales de la salud comprometidos con tu bienestar.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="background-image: url('view/img/Farmacias_XAD_Carrusel_3.jpg')">
+                        <div class="carousel-caption">
+                            <div class="carousel-content">
+                                <h1 class="display-4 mb-4">Servicio de excelencia</h1>
+                                <p class="lead">Ofrecemos asesoramiento personalizado para tus necesidades de salud.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </div>
+
         <main class="main">
             <div class="main-container">
                 <section class="section">
-                    <div class="welcome-content">
-                        <h1 class="display-4 mb-4">Bienvenido a Farmacias XAD</h1>
-                        <p class="lead">Tu salud es nuestra prioridad. Encuentra los mejores productos farmacéuticos y
-                            servicios de calidad.</p>
-                    </div>
 
                     <div class="services-grid">
                         <div class="service-card">
