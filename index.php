@@ -49,7 +49,7 @@
             <div class="main-container">
                 <section class="section">
                     <div class="welcome-content">
-                        <h1 class="display-4 mb-4">Bienvenido a Farmacias XAD</h1>
+                        <h1 class="display-4 mb-4">Bienvenido a Farmacias </h1>
                         <p class="lead">Tu salud es nuestra prioridad. Encuentra los mejores productos farmacéuticos y
                             servicios de calidad.</p>
                         <!-- button class="btn btn-primary btn-lg mt-3">Ver productos destacados</button-->
