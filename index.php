@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Farmacias CESAR SILVA </title>
+    <title>Farmacias XAD</title>
     <link rel="shortcut icon" href="view/img/logos/FarmaciasXAD - FavIcon.jpg" type="image/x-icon" />
     <link rel="stylesheet" href="view/vendor/bootstrap-5.2.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="view/css/cssIndex.css">
@@ -49,7 +49,7 @@
             <div class="main-container">
                 <section class="section">
                     <div class="welcome-content">
-                        <h1 class="display-4 mb-4">Bienvenido a Farmacias </h1>
+                        <h1 class="display-4 mb-4">Bienvenido a Farmacias dasdas</h1>
                         <p class="lead">Tu salud es nuestra prioridad. Encuentra los mejores productos farmacéuticos y
                             servicios de calidad.</p>
                         <!-- button class="btn btn-primary btn-lg mt-3">Ver productos destacados</button-->
