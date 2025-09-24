@@ -5,7 +5,7 @@ class Conexion{
 
     function crearConexion(){
         $usuario='root';
-        $password='JulioAlan2500?';
+        $password='S4m4300604';
         try{
             $this->cnx=new PDO('mysql:host=localhost:3306;dbname=farmaciasxad',$usuario,$password);
         }catch(PDOException $e){
