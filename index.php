@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Farmacias XAD</title>
+    <title>Farmacias XAD por sama</title>
     <link rel="shortcut icon" href="view/img/logos/FarmaciasXAD - FavIcon.jpg" type="image/x-icon" />
 
     <!-- CSS -->
